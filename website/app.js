@@ -69,7 +69,7 @@ const postData = async(url='', data= {})=>{
 
 //update user interface
 const updateUI= async()=> {
-    const Request = await fetch('http://localhost:8000/all');
+    const Request = await fetch('http://localhost:8000/addData');
     try {
 
         const allData = await request.json();
