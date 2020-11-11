@@ -37,7 +37,7 @@ function addData(req,res){
 
 };
 // returns the projectData object
-app.get('/all', sendData);
+app.get('/addData', sendData);
 function sendData (req, res) {
 res.send(projectData)
 };
